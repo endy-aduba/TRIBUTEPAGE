@@ -1,0 +1,78 @@
+    body {
+        margin: 0px;
+        background-color: black;
+        color: white;
+    }
+    
+    main {
+        display: block;
+    }
+    
+    #main {
+        background-color: rgb(41, 41, 41);
+        margin: 100px 300px 100px 300px;
+        border-radius: 2%;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    #title {
+        font: 50px bold;
+        font-family: 'Lato';
+    }
+    
+    p {
+        font-family: 'lato';
+        font: 40px;
+        line-height: 2.8em;
+    }
+    
+    #img-div {
+        color: black;
+        background-color: rgb(245, 245, 245);
+        padding: 20px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+    
+    div {
+        display: block;
+    }
+    
+    #img-caption {
+        font-family: 'lato';
+        font-size: 30px;
+    }
+    
+    img {
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:link {
+        color: white;
+    }
+    
+    a:visited {
+        color: rgb(255, 194, 194);
+    }
+    
+    a:hover {
+        color: rgb(0, 174, 255);
+    }
+    
+    @media (max-width: 1150px) {
+        #main {
+            background-color: rgb(41, 41, 41);
+            margin: 25px 100px 25px 100px;
+            border-radius: 5px;
+            padding: 30px;
+            text-align: center;
+        }
+    }
